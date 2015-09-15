@@ -178,24 +178,30 @@ a.btn:hover, .nav li a:hover, .nav-btn:hover {
     width: 100%
 }
 
-.portfolio .slideshow-container {
-    width: 100%
+.jumbotron ul li {
+  list-style: none;
+  float: left;
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;	
 }
 
-.portfolio .slide {
-    height: 500px;
-    overflow: hidden;
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    width: 100%
+.jumbotron ul li:nth-child(1){
+	background-image: url(https://portfolio-rails-2633.herokuapp.com/assets/slide01-9d5c1b911de14032bbc4cc7b19514447.jpg);
 }
-
-.slide img {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%
+.jumbotron ul li:nth-child(2){
+	background-image: url(https://portfolio-rails-2633.herokuapp.com/assets/slide02-3c9662ea3f8d9ce479b5a76aedfa3f7b.jpg);
+}
+.jumbotron ul li:nth-child(3){
+	background-image: url(https://portfolio-rails-2633.herokuapp.com/assets/slide03-4e85ff59d4201786022aecf410d35d4f.jpg);
+}
+.jumbotron ul li:nth-child(4){
+	background-image: url(https://portfolio-rails-2633.herokuapp.com/assets/slide04-38bd2e1296452662195acbb9cabafda6.jpg);
+}
+.jumbotron ul li:nth-child(5){
+	background-image: url(https://portfolio-rails-2633.herokuapp.com/assets/slide05-0d54918a8bf7af849bbe49da704e6bb6.jpg);
 }
 
 .project, .project:hover {
@@ -292,5 +298,3 @@ a.btn:hover, .nav li a:hover, .nav-btn:hover {
         margin: 0
     }
 }
-
-
